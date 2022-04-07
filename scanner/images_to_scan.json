@@ -1,0 +1,428 @@
+[
+    {
+        "image_name": "adminer"
+    },
+    {
+        "image_name": "aerospike"
+    },
+    {
+        "image_name": "almalinux"
+    },
+    {
+        "image_name": "alpine"
+    },
+    {
+        "image_name": "alt"
+    },
+    {
+        "image_name": "amazoncorretto"
+    },
+    {
+        "image_name": "amazonlinux"
+    },
+    {
+        "image_name": "api-firewall"
+    },
+    {
+        "image_name": "arangodb"
+    },
+    {
+        "image_name": "archlinux"
+    },
+    {
+        "image_name": "backdrop"
+    },
+    {
+        "image_name": "bash"
+    },
+    {
+        "image_name": "bonita"
+    },
+    {
+        "image_name": "buildpack-deps"
+    },
+    {
+        "image_name": "busybox"
+    },
+    {
+        "image_name": "caddy"
+    },
+    {
+        "image_name": "cassandra"
+    },
+    {
+        "image_name": "centos"
+    },
+    {
+        "image_name": "chronograf"
+    },
+    {
+        "image_name": "cirros"
+    },
+    {
+        "image_name": "clearlinux"
+    },
+    {
+        "image_name": "clefos"
+    },
+    {
+        "image_name": "clojure"
+    },
+    {
+        "image_name": "composer"
+    },
+    {
+        "image_name": "consul"
+    },
+    {
+        "image_name": "convertigo"
+    },
+    {
+        "image_name": "couchbase"
+    },
+    {
+        "image_name": "couchdb"
+    },
+    {
+        "image_name": "crate"
+    },
+    {
+        "image_name": "dart"
+    },
+    {
+        "image_name": "debian"
+    },
+    {
+        "image_name": "docker"
+    },
+    {
+        "image_name": "drupal"
+    },
+    {
+        "image_name": "eclipse-mosquitto"
+    },
+    {
+        "image_name": "eclipse-temurin"
+    },
+    {
+        "image_name": "eggdrop"
+    },
+    {
+        "image_name": "elasticsearch"
+    },
+    {
+        "image_name": "elixir"
+    },
+    {
+        "image_name": "erlang"
+    },
+    {
+        "image_name": "express-gateway"
+    },
+    {
+        "image_name": "fedora"
+    },
+    {
+        "image_name": "flink"
+    },
+    {
+        "image_name": "fluentd"
+    },
+    {
+        "image_name": "friendica"
+    },
+    {
+        "image_name": "gazebo"
+    },
+    {
+        "image_name": "gcc"
+    },
+    {
+        "image_name": "geonetwork"
+    },
+    {
+        "image_name": "ghost"
+    },
+    {
+        "image_name": "golang"
+    },
+    {
+        "image_name": "gradle"
+    },
+    {
+        "image_name": "groovy"
+    },
+    {
+        "image_name": "haproxy"
+    },
+    {
+        "image_name": "haskell"
+    },
+    {
+        "image_name": "haxe"
+    },
+    {
+        "image_name": "hello-world"
+    },
+    {
+        "image_name": "hitch"
+    },
+    {
+        "image_name": "httpd"
+    },
+    {
+        "image_name": "hylang"
+    },
+    {
+        "image_name": "ibm-semeru-runtimes"
+    },
+    {
+        "image_name": "ibmjava"
+    },
+    {
+        "image_name": "influxdb"
+    },
+    {
+        "image_name": "irssi"
+    },
+    {
+        "image_name": "jetty"
+    },
+    {
+        "image_name": "jobber"
+    },
+    {
+        "image_name": "joomla"
+    },
+    {
+        "image_name": "jruby"
+    },
+    {
+        "image_name": "julia"
+    },
+    {
+        "image_name": "kapacitor"
+    },
+    {
+        "image_name": "kibana"
+    },
+    {
+        "image_name": "kong"
+    },
+    {
+        "image_name": "lightstreamer"
+    },
+    {
+        "image_name": "logstash"
+    },
+    {
+        "image_name": "mageia"
+    },
+    {
+        "image_name": "mariadb"
+    },
+    {
+        "image_name": "matomo"
+    },
+    {
+        "image_name": "maven"
+    },
+    {
+        "image_name": "mediawiki"
+    },
+    {
+        "image_name": "memcached"
+    },
+    {
+        "image_name": "mongo"
+    },
+    {
+        "image_name": "mongo-express"
+    },
+    {
+        "image_name": "monica"
+    },
+    {
+        "image_name": "mono"
+    },
+    {
+        "image_name": "mysql"
+    },
+    {
+        "image_name": "nats"
+    },
+    {
+        "image_name": "nats-streaming"
+    },
+    {
+        "image_name": "neo4j"
+    },
+    {
+        "image_name": "neurodebian"
+    },
+    {
+        "image_name": "nextcloud"
+    },
+    {
+        "image_name": "nginx"
+    },
+    {
+        "image_name": "node"
+    },
+    {
+        "image_name": "notary"
+    },
+    {
+        "image_name": "odoo"
+    },
+    {
+        "image_name": "open-liberty"
+    },
+    {
+        "image_name": "openjdk"
+    },
+    {
+        "image_name": "oraclelinux"
+    },
+    {
+        "image_name": "orientdb"
+    },
+    {
+        "image_name": "percona"
+    },
+    {
+        "image_name": "perl"
+    },
+    {
+        "image_name": "photon"
+    },
+    {
+        "image_name": "php"
+    },
+    {
+        "image_name": "php-zendserver"
+    },
+    {
+        "image_name": "phpmyadmin"
+    },
+    {
+        "image_name": "plone"
+    },
+    {
+        "image_name": "postfixadmin"
+    },
+    {
+        "image_name": "postgres"
+    },
+    {
+        "image_name": "pypy"
+    },
+    {
+        "image_name": "python"
+    },
+    {
+        "image_name": "r-base"
+    },
+    {
+        "image_name": "rabbitmq"
+    },
+    {
+        "image_name": "rakudo-star"
+    },
+    {
+        "image_name": "redis"
+    },
+    {
+        "image_name": "redmine"
+    },
+    {
+        "image_name": "registry"
+    },
+    {
+        "image_name": "rethinkdb"
+    },
+    {
+        "image_name": "rocket.chat"
+    },
+    {
+        "image_name": "rockylinux"
+    },
+    {
+        "image_name": "ros"
+    },
+    {
+        "image_name": "ruby"
+    },
+    {
+        "image_name": "rust"
+    },
+    {
+        "image_name": "sapmachine"
+    },
+    {
+        "image_name": "silverpeas"
+    },
+    {
+        "image_name": "sl"
+    },
+    {
+        "image_name": "solr"
+    },
+    {
+        "image_name": "sonarqube"
+    },
+    {
+        "image_name": "spiped"
+    },
+    {
+        "image_name": "storm"
+    },
+    {
+        "image_name": "swift"
+    },
+    {
+        "image_name": "swipl"
+    },
+    {
+        "image_name": "teamspeak"
+    },
+    {
+        "image_name": "telegraf"
+    },
+    {
+        "image_name": "tomcat"
+    },
+    {
+        "image_name": "tomee"
+    },
+    {
+        "image_name": "traefik"
+    },
+    {
+        "image_name": "ubuntu"
+    },
+    {
+        "image_name": "varnish"
+    },
+    {
+        "image_name": "vault"
+    },
+    {
+        "image_name": "websphere-liberty"
+    },
+    {
+        "image_name": "wordpress"
+    },
+    {
+        "image_name": "xwiki"
+    },
+    {
+        "image_name": "yourls"
+    },
+    {
+        "image_name": "znc"
+    },
+    {
+        "image_name": "zookeeper"
+    }
+]
