@@ -1,0 +1,283 @@
+[
+  {
+    "vulnerabilities": [
+      {
+        "title": "ELSA-2022-9263",
+        "credit": [
+          ""
+        ],
+        "packageName": "libgcrypt",
+        "language": "linux",
+        "packageManager": "oracle:8",
+        "description": "## NVD Description\n**_Note:_** _Versions mentioned in the description apply to the upstream `libgcrypt` package._\n_See `How to fix?` for `Oracle:8` relevant versions._\n\n [1.8.5-6_fips] - Add API to provide hash calculation in RSA/DSA/ECDSA signature   operations [Orabug: 33081130] - Change Epoch from 1 to 10 [1.8.5-6] - Fix for CVE-2021-33560 (#1971421) - Enable HW optimizations in FIPS (#1976137) - Performance enchancements for ChaCha20 and Poly1305 (#1855231) [1.8.5-5] - Performance enchancements for AES-GCM, CRC32 and SHA2 (#1855231) \n## Remediation\nUpgrade `Oracle:8` `libgcrypt` to version 10:1.8.5-6.el8_fips or higher.\n## References\n- [ADVISORY](https://linux.oracle.com/errata/ELSA-2022-9263.html)\n",
+        "identifiers": {
+          "ALTERNATIVE": [],
+          "CVE": [
+            "ELSA-2022-9263"
+          ],
+          "CWE": []
+        },
+        "severity": "medium",
+        "socialTrendAlert": false,
+        "cvssScore": null,
+        "CVSSv3": null,
+        "patches": [],
+        "references": [
+          {
+            "title": "ADVISORY",
+            "url": "https://linux.oracle.com/errata/ELSA-2022-9263.html"
+          }
+        ],
+        "creationTime": "2022-04-06T20:35:11.662675Z",
+        "modificationTime": "2022-04-06T20:35:11.706050Z",
+        "publicationTime": "2022-04-06T20:35:11.548448Z",
+        "disclosureTime": null,
+        "id": "SNYK-ORACLE8-LIBGCRYPT-2441759",
+        "malicious": false,
+        "nvdSeverity": "low",
+        "relativeImportance": null,
+        "semver": {
+          "vulnerable": [
+            "<10:1.8.5-6.el8_fips"
+          ]
+        },
+        "exploit": "No Data",
+        "severityWithCritical": "medium",
+        "from": [
+          "docker-image|openjdk@latest",
+          "libgcrypt@1.8.5-6.el8"
+        ],
+        "upgradePath": [
+          false,
+          "libgcrypt@10:1.8.5-6.el8_fips"
+        ],
+        "isUpgradable": true,
+        "isPatchable": false,
+        "name": "libgcrypt",
+        "version": "1.8.5-6.el8",
+        "nearestFixedInVersion": "10:1.8.5-6.el8_fips"
+      }
+    ],
+    "ok": false,
+    "dependencyCount": 111,
+    "org": "sbs2001",
+    "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.22.1\nignore: {}\npatch: {}\n",
+    "isPrivate": true,
+    "licensesPolicy": {
+      "severities": {},
+      "orgLicenseRules": {
+        "AGPL-1.0": {
+          "licenseType": "AGPL-1.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "AGPL-3.0": {
+          "licenseType": "AGPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "Artistic-1.0": {
+          "licenseType": "Artistic-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "Artistic-2.0": {
+          "licenseType": "Artistic-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CDDL-1.0": {
+          "licenseType": "CDDL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CPOL-1.02": {
+          "licenseType": "CPOL-1.02",
+          "severity": "high",
+          "instructions": ""
+        },
+        "EPL-1.0": {
+          "licenseType": "EPL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "GPL-2.0": {
+          "licenseType": "GPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "GPL-3.0": {
+          "licenseType": "GPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "LGPL-2.0": {
+          "licenseType": "LGPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-2.1": {
+          "licenseType": "LGPL-2.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-3.0": {
+          "licenseType": "LGPL-3.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-1.1": {
+          "licenseType": "MPL-1.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-2.0": {
+          "licenseType": "MPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MS-RL": {
+          "licenseType": "MS-RL",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "SimPL-2.0": {
+          "licenseType": "SimPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        }
+      }
+    },
+    "packageManager": "rpm",
+    "ignoreSettings": null,
+    "docker": {
+      "baseImage": "openjdk:17.0.2-oraclelinux8",
+      "baseImageRemediation": {
+        "code": "NO_REMEDIATION_AVAILABLE",
+        "advice": [
+          {
+            "message": "According to our scan, you are currently using the most secure version of the selected base image",
+            "bold": true
+          }
+        ]
+      },
+      "binariesVulns": {
+        "issuesData": {},
+        "affectedPkgs": {}
+      }
+    },
+    "summary": "1 vulnerable dependency path",
+    "filesystemPolicy": false,
+    "filtered": {
+      "ignore": [],
+      "patch": []
+    },
+    "uniqueCount": 1,
+    "projectName": "docker-image|openjdk",
+    "platform": "linux/amd64",
+    "path": "openjdk:latest"
+  },
+  {
+    "vulnerabilities": [],
+    "ok": true,
+    "dependencyCount": 0,
+    "org": "sbs2001",
+    "policy": "# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.\nversion: v1.22.1\nignore: {}\npatch: {}\n",
+    "isPrivate": true,
+    "licensesPolicy": {
+      "severities": {},
+      "orgLicenseRules": {
+        "AGPL-1.0": {
+          "licenseType": "AGPL-1.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "AGPL-3.0": {
+          "licenseType": "AGPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "Artistic-1.0": {
+          "licenseType": "Artistic-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "Artistic-2.0": {
+          "licenseType": "Artistic-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CDDL-1.0": {
+          "licenseType": "CDDL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "CPOL-1.02": {
+          "licenseType": "CPOL-1.02",
+          "severity": "high",
+          "instructions": ""
+        },
+        "EPL-1.0": {
+          "licenseType": "EPL-1.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "GPL-2.0": {
+          "licenseType": "GPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "GPL-3.0": {
+          "licenseType": "GPL-3.0",
+          "severity": "high",
+          "instructions": ""
+        },
+        "LGPL-2.0": {
+          "licenseType": "LGPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-2.1": {
+          "licenseType": "LGPL-2.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "LGPL-3.0": {
+          "licenseType": "LGPL-3.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-1.1": {
+          "licenseType": "MPL-1.1",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MPL-2.0": {
+          "licenseType": "MPL-2.0",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "MS-RL": {
+          "licenseType": "MS-RL",
+          "severity": "medium",
+          "instructions": ""
+        },
+        "SimPL-2.0": {
+          "licenseType": "SimPL-2.0",
+          "severity": "high",
+          "instructions": ""
+        }
+      }
+    },
+    "packageManager": "maven",
+    "ignoreSettings": null,
+    "docker": {},
+    "summary": "No known vulnerabilities",
+    "filesystemPolicy": false,
+    "uniqueCount": 0,
+    "targetFile": "/usr/java/openjdk-17/lib",
+    "projectName": "openjdk:latest:/usr/java/openjdk-17/lib",
+    "displayTargetFile": "/usr/java/openjdk-17/lib",
+    "path": "openjdk:latest/usr/java/openjdk-17/lib"
+  }
+]
